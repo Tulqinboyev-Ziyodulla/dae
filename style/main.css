@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Global CSS - start */
+.container {
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+/* Global CSS - end */
+
+.sub__header {
+    background-color: #B36050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+}
+
+.header {
+    background: #F6F4EC;
+}
+
+.navbar {
+    height: 71px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar__logo {
+    width: 120px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar__collection {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    color: #B4604D;
+    text-decoration: none;
+}
+
+.navbar__icons {
+    color: #B4604D;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar__cart {
+    display: flex;
+    gap: 4px;
+}
+
+.hero {
+    width: 100%;
+    height: 435px;
+    background: url(../assets/foto.png) no-repeat center/cover;
+}
+
+.hero__bottom {
+    width: 100%;
+    height: 304px;
+    background: #A9AE8D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero__desc {
+    color: #F6F4EC;
+    font-size: 18px;
+}
+
+.hero__title {
+    color: #F6F4EC;
+    font-size: 33px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #B45F4D;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: crimson;
+    color: lime;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.box {
+    width: 100%px;
+    height: 835px;
+    background-color: #F6F4EC;
+    margin-top: 50px;
+}
+
+.box__bottom {
+    display: flex;
+    justify-content: center;
+    color: #B45F4D;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.wrapper {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.wrapper__img {
+    width: 340px;
+    height: 510px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card p {
+    margin-top: 20px;
+}
+
+.left {
+    margin-top: 30px;
+}
+
+.right {
+    margin-top: 30px;
+    margin-left: 270px;
+}
+
+.top {
+    margin-top: 50px;
+    background: url(../assets/foto1.png) no-repeat center/cover;
+    width: 1200px;
+    height: 407px;
+}
+
+.top__title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DF9B7A;
+    color: #F6F4EC;
+    width: 1200px;
+    height: 92px;
+    align-items: center;
+    padding: 20px;
+    margin-top: -150px;
+}
+
+.top__title h3 {
+    font-size: 20px;
+}
+
+.top__title p {
+    font-size: 18px;
+}
+
+.home {
+    width: 100%;
+    height: 914px;
+    background-color: #F1D3B9;
+    margin-top: 100px;
+}
+
+.title {
+    display: flex;
+    gap: 204px;
+
+}
+
+.title__photo {
+    width: 500px;
+    height: 750px;
+}
+
+.title__cart {
+    background-color: #fff;
+    color: #B45F4D;
+    width: 500px;
+    height: 750px;
+    margin-top: 96px;
+}
+
+.title__card {
+    margin-top: 96px;
+}
+
+.title__card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.title__cart:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.title__cart h2 {
+    font-size: 30px;
+    margin-top: 134px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.p {
+    font-size: 18px;
+    margin-top: 22px;
+    margin: 20px;
+}
+
+.p__one {
+    font-size: 16px;
+    margin-top: 41px;
+    margin: 20px;
+}
+
+.p__one:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.time {
+    margin-top: 50px;
+}
+
+.wrap {
+    text-align: center;
+    font-size: 23px;
+}
+
+.flex {
+    margin-top: 50px;
+    gap: 8px;
+}
+
+.flex img {
+    width: 192px;
+    height: 150px;
+}
+
+.flex img:hover {
+    transform: scale(0.8);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #F6F4EC;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    color: #B45F4D;
+}
+
+
+.foot__title {
+    margin-top: 50px;
+}
+
+hr {
+    margin-top: 50px;
+    color: #B45F4D;
+}
+
+
+.footer__top {
+    text-align: center;
+    color: #B45F4D;
+    margin-top: 30px;
+}
